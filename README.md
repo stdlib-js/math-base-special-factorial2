@@ -45,14 +45,30 @@ Thus, for example, `5!!` is `5 * 3 * 1 = 15` and `8!!` is `8 * 6 * 4 * 2 = 384`.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-factorial2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
+var factorial2 = require( '@stdlib/math-base-special-factorial2' );
 ```
 
 #### factorial2( n )
@@ -92,14 +108,9 @@ v = factorial2( 301 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-one-to@esm/index.mjs';
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
+```javascript
+var oneTo = require( '@stdlib/array-base-one-to' );
+var factorial2 = require( '@stdlib/math-base-special-factorial2' );
 
 var values = oneTo( 300 );
 
@@ -107,10 +118,6 @@ var i;
 for ( i = 0; i < values.length; i++ ) {
     console.log( 'f(%d): %d', values[ i ], factorial2( values[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -140,7 +147,7 @@ for ( i = 0; i < values.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -157,7 +164,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -204,7 +211,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial/tree/esm
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial
 
 <!-- </related-links> -->
 
