@@ -52,7 +52,7 @@ Thus, for example, `5!!` is `5 * 3 * 1 = 15` and `8!!` is `8 * 6 * 4 * 2 = 384`.
 ## Usage
 
 ```javascript
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.1.1-esm/index.mjs';
 ```
 
 #### factorial2( n )
@@ -99,7 +99,7 @@ v = factorial2( 301 );
 <script type="module">
 
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-one-to@esm/index.mjs';
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.1.1-esm/index.mjs';
 
 var values = oneTo( 300 );
 
