@@ -52,6 +52,11 @@ Thus, for example, `5!!` is `5 * 3 * 1 = 15` and `8!!` is `8 * 6 * 4 * 2 = 384`.
 ## Usage
 
 ```javascript
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-factorial2/tags). For example,
+
+```javascript
 import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.2.0-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ v = factorial2( 301 );
 <script type="module">
 
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-one-to@esm/index.mjs';
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.2.0-esm/index.mjs';
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@esm/index.mjs';
 
 var values = oneTo( 300 );
 
