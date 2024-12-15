@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-15)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
 -   [`3e05048`](https://github.com/stdlib-js/stdlib/commit/3e05048df523b9a45e3f0621893d9dd99aae8d9c) - **docs:** remove comment _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
@@ -25,9 +27,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -59,7 +62,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   [`40bf4fa`](https://github.com/stdlib-js/stdlib/commit/40bf4fa7b188024cd0f0a98bfeb1e7f4c2ff3ec0) - **chore:** remove trailing space _(by Philipp Burckhardt)_
 -   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(#1926)](https://github.com/stdlib-js/stdlib/pull/1926) _(by stdlib-bot, Athan Reines)_
--   [`5433e22`](https://github.com/stdlib-js/stdlib/commit/5433e22ea76052b48ab4503cf11dc4b64aa0ec7d) - **feat:** add C implementation for `math/base/special/factorial2` _(by Rutam, Pranav, Philipp Burckhardt)_
+-   [`5433e22`](https://github.com/stdlib-js/stdlib/commit/5433e22ea76052b48ab4503cf11dc4b64aa0ec7d) - **feat:** add C implementation for `math/base/special/factorial2` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
 
 </details>
 
@@ -76,7 +79,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Philipp Burckhardt
 -   Pranav Goswami
--   Rutam
+-   Rutam Kathale
 
 </section>
 
