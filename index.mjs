@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@v0.2.2-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-integer@v0.2.5-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-even@v0.2.3-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pinf@v0.2.2-esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@esm/index.mjs";function i(i){var m,a,d,o;if(s(i))return NaN;if(i>n)return r;if(i<0||!1===t(i))return NaN;if(0===(d=0|i)|0||1===d|0)return 1;for(m=e(d)?2:3,a=1,o=0|d;o>=m;o-=2)a*=0|o;return a}export{i as default};
+//# sourceMappingURL=index.mjs.map
