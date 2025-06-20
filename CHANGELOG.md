@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-21)
+## Unreleased (2025-06-20)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - remove unnecessary parameter checks for int32_t in `factorial2`
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - correct imports to use `max-nth-double-factorial` constant
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - **fix:** remove unnecessary parameter checks for int32_t in `factorial2` _(by Philipp Burckhardt)_
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - **fix:** correct imports to use `max-nth-double-factorial` constant _(by Karan Anand)_
 -   [`ed27d17`](https://github.com/stdlib-js/stdlib/commit/ed27d17c614ad01c40d4f82f269541d9f388ab96) - **docs:** remove repeated example input [(#6442)](https://github.com/stdlib-js/stdlib/pull/6442) _(by Karan Anand)_
 -   [`3bc9214`](https://github.com/stdlib-js/stdlib/commit/3bc921468809e515391760ff43e78f66a263f188) - **chore:** use `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6363)](https://github.com/stdlib-js/stdlib/pull/6363) _(by Karan Anand)_
