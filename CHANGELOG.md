@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-08-22)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - **fix:** remove unnecessary parameter checks for int32_t in `factorial2` _(by Philipp Burckhardt)_
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - **fix:** correct imports to use `max-nth-double-factorial` constant _(by Karan Anand)_
 -   [`ed27d17`](https://github.com/stdlib-js/stdlib/commit/ed27d17c614ad01c40d4f82f269541d9f388ab96) - **docs:** remove repeated example input [(#6442)](https://github.com/stdlib-js/stdlib/pull/6442) _(by Karan Anand)_
