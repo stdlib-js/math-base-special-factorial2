@@ -17,12 +17,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`862befd`](https://github.com/stdlib-js/stdlib/commit/862befd29f5c2dc64e14f64497ff025dd6c00921): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`862befd`](https://github.com/stdlib-js/stdlib/commit/862befd29f5c2dc64e14f64497ff025dd6c00921) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/factorial2` [(#8029)](https://github.com/stdlib-js/stdlib/pull/8029) _(by Gunj Joshi)_
 -   [`7f8011b`](https://github.com/stdlib-js/stdlib/commit/7f8011bf6102b49a19fdaed71fe493af892db695) - **chore:** add structured package data for `math/base/special/factorial2` [(#8023)](https://github.com/stdlib-js/stdlib/pull/8023) _(by Lokesh Ranjan, Athan Reines)_
 -   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - **fix:** remove unnecessary parameter checks for int32_t in `factorial2` _(by Philipp Burckhardt)_
@@ -44,9 +57,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Karan Anand
 -   Lokesh Ranjan
 -   Philipp Burckhardt
