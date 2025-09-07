@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`83bec65`](https://github.com/stdlib-js/stdlib/commit/83bec65012192d2c4cdfcc852c1d5626a1e13ef0) - **refactor:** add explicit NaN check _(by Athan Reines)_
 -   [`862befd`](https://github.com/stdlib-js/stdlib/commit/862befd29f5c2dc64e14f64497ff025dd6c00921) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/factorial2` [(#8029)](https://github.com/stdlib-js/stdlib/pull/8029) _(by Gunj Joshi)_
 -   [`7f8011b`](https://github.com/stdlib-js/stdlib/commit/7f8011bf6102b49a19fdaed71fe493af892db695) - **chore:** add structured package data for `math/base/special/factorial2` [(#8023)](https://github.com/stdlib-js/stdlib/pull/8023) _(by Lokesh Ranjan, Athan Reines)_
 -   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
