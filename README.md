@@ -52,6 +52,11 @@ Thus, for example, `5!!` is `5 * 3 * 1 = 15` and `8!!` is `8 * 6 * 4 * 2 = 384`.
 ## Usage
 
 ```javascript
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-factorial2/tags). For example,
+
+```javascript
 import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.3.1-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ v = factorial2( 301 );
 
 ```javascript
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-one-to@deno/mod.js';
-import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@v0.3.1-deno/mod.js';
+import factorial2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-factorial2@deno/mod.js';
 
 var values = oneTo( 300 );
 
